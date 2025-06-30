@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="author" content="Sarinia"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Matulay_Portfolio</title>
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body class="contact-page">
+
+<header>
+  <nav>
+    <img src="images/logogo.png" alt="logo img" class="logo"/>
+     <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contacts.html">Contacts</a></li>
+     </ul>
+  </nav>
+</header>
+
+<main class="cmain">
+ <div class="colorstrip">
+  <img src="images/blondd.png" alt="profile" class="profile-img">
+ </div>
+
+  <h2>Let's Connect!</h2>
+  <p class="intro"><strong>Whether you're interested in a shoot, have a creative idea, or just want to say hi, feel free to reach out using the form below. I'll make sure to get back to you as soon as I can.</strong></p>
+
+  <form action="https://formspree.io/f/your-form-id" method="POST">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="_replyto" required>
+
+    <label for="subject">Subject</label>
+    <input type="text" id="subject" name="subject">
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+    <p id="word-count" style="margin: 0.5rem 0; color: white;"></p>
+    <p id="word-warning" style="color: red; display: none;">You've reached the 100-word limit.</p>
+
+    <button type="submit">SEND</button>
+  </form>
+  
+  
+</main>
+
+<footer>
+
+  <div class="social-footer">
+    <a href="https://www.instagram.com/sari_ngit/"><img src="images/instaaa.png" alt="Instagram">Instagram</a>
+    <a href="#"><img src="images/yutu.png" alt="YouTube">Youtube</a>
+    <a href="https://www.facebook.com/sarinia.dm.2024/"><img src="images/fb.png" alt="Facebook">Facebook</a>
+  </div>
+
+ <p>© 2025 Matulay. All rights reserved.</p>
+</footer>
+
+<script src="scripts/script.js"></script>
+</body>
+</html>
